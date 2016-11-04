@@ -51,10 +51,11 @@ BEGIN
  Bar[2]:=
  BEGIN
   BarID:=59414;
+  Visible:=0;
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 2560 185";
+  MRUDockPos:="1 5 1606 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-1 0";
   Style:=36756;
@@ -63,7 +64,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="1000000";
   MRUFloat:="300 180";
-  MRUHorzDock:="2559 180";
+  MRUHorzDock:="1605 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -127,8 +128,8 @@ BEGIN
   BarID:=59413;
   Pos:="0 -2";
   Docking:=1;
-  MRUDockID:=59420;
-  MRUDockPos:="0 -2 304 1061";
+  MRUDockID:=0;
+  MRUDockPos:="0 -2 304 888";
   MRUFloatStyle:=4;
   MRUFloatPos:="-1 0";
   Style:=8084;
@@ -138,7 +139,7 @@ BEGIN
   PctWidth:="1000000";
   MRUFloat:="300 180";
   MRUHorzDock:="300 180";
-  MRUVertDock:="304 1063";
+  MRUVertDock:="304 890";
   MRUDockingState:=0;
   DockingStyle:=61440;
   TypeID:=0;
@@ -179,160 +180,60 @@ BEGIN
  Item[0]:=0;
  Item[1]:=2;
  Item[2]:=13;
- Item[3]:=14;
- ItemCount:=4;
- Sumcheck:=57;
- Selected:=30;
+ Item[3]:=47;
+ Item[4]:=63;
+ Item[5]:=80;
+ ItemCount:=6;
+ Sumcheck:=110;
+ Selected:=51;
 END;
 Frame[0]:=
 BEGIN
- Norm:="0260 0260 1644 1032";
+ Norm:="0000 0000 1380 0768";
  Min:="-001 -001";
- Access:="PROGRAM:新規ﾌﾟﾛｼﾞｪｸﾄ.ﾘｿｰｽ.新規ﾘｿｰｽ1.ﾌﾟﾛｸﾞﾗﾑ.ﾃﾞｰﾀ収集PLCﾌﾟﾛｸﾞﾗﾑ.ｾｸｼｮﾝ.ｼﾌﾄｴﾘｱ_ﾃﾞｰﾀｸﾘｱ!ｼﾌﾄｴﾘｱ_ﾃﾞｰﾀｸﾘｱ";
+ Access:="PROGRAM:新規ﾌﾟﾛｼﾞｪｸﾄ.ﾘｿｰｽ.新規ﾘｿｰｽ1.ﾌﾟﾛｸﾞﾗﾑ.ﾃﾞｰﾀ収集.ｾｸｼｮﾝ.通信ST!通信ST";
  Type:=1;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
+   Yscroll:=9;
   END;
   nViews:=1;
  END;
 END;
 Frame[1]:=
 BEGIN
- Norm:="0286 0286 1670 1058";
+ Norm:="0052 0052 1376 0654";
  Min:="-001 -001";
- Access:="PROGRAM:新規ﾌﾟﾛｼﾞｪｸﾄ.ﾘｿｰｽ.新規ﾘｿｰｽ1.ﾌﾟﾛｸﾞﾗﾑ.ﾃﾞｰﾀ収集PLCﾌﾟﾛｸﾞﾗﾑ.ｾｸｼｮﾝ.ｽﾀｯｸｴﾘｱ_ﾃﾞｰﾀ書込み!ｽﾀｯｸｴﾘｱ_ﾃﾞｰﾀ書込み";
+ Access:="PROGRAM:新規ﾌﾟﾛｼﾞｪｸﾄ.ﾘｿｰｽ.新規ﾘｿｰｽ1.ﾌﾟﾛｸﾞﾗﾑ.ﾃｰﾀ処理.ｾｸｼｮﾝ.ﾃﾞｰﾀ処理!ﾃﾞｰﾀ処理";
  Type:=1;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=14;
+   Yscroll:=179;
   END;
   nViews:=1;
  END;
 END;
 Frame[2]:=
 BEGIN
- Norm:="0312 0312 1696 1084";
- Min:="-001 -001";
- Access:="PROGRAM:新規ﾌﾟﾛｼﾞｪｸﾄ.ﾘｿｰｽ.新規ﾘｿｰｽ1.ﾌﾟﾛｸﾞﾗﾑ.ﾃﾞｰﾀ収集PLCﾌﾟﾛｸﾞﾗﾑ.ｾｸｼｮﾝ.ｽﾀｯｸｴﾘｱ_ﾃﾞｰﾀｼﾌﾄ!ｽﾀｯｸｴﾘｱ_ﾃﾞｰﾀｼﾌﾄ";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[3]:=
-BEGIN
- Norm:="0338 0338 1722 1110";
- Min:="-001 -001";
- Access:="PROGRAM:新規ﾌﾟﾛｼﾞｪｸﾄ.ﾘｿｰｽ.新規ﾘｿｰｽ1.ﾌﾟﾛｸﾞﾗﾑ.ﾃﾞｰﾀ収集PLCﾌﾟﾛｸﾞﾗﾑ.ｾｸｼｮﾝ.ｽﾀｯｸｴﾘｱ_ﾃﾞｰﾀｸﾘｱ!ｽﾀｯｸｴﾘｱ_ﾃﾞｰﾀｸﾘｱ";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[4]:=
-BEGIN
- Norm:="0260 0260 2094 1092";
- Min:="-001 -001";
- Access:="PROGRAM:新規ﾌﾟﾛｼﾞｪｸﾄ.ﾘｿｰｽ.新規ﾘｿｰｽ1.ﾌﾟﾛｸﾞﾗﾑ.ﾃﾞｰﾀ収集PLCﾌﾟﾛｸﾞﾗﾑ.ｾｸｼｮﾝ.PC･搬送PLC制御通信!PC･搬送PLC制御通信";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=12;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[5]:=
-BEGIN
- Norm:="0286 0286 2120 1118";
- Min:="-001 -001";
- Access:="PROGRAM:新規ﾌﾟﾛｼﾞｪｸﾄ.ﾘｿｰｽ.新規ﾘｿｰｽ1.ﾌﾟﾛｸﾞﾗﾑ.ﾃﾞｰﾀ収集PLCﾌﾟﾛｸﾞﾗﾑ.ｾｸｼｮﾝ.Ch0_RT1_2通信開始!Ch0_RT1_2通信開始";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=1;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[6]:=
-BEGIN
- Norm:="0364 0364 2198 1196";
- Min:="-001 -001";
- Access:="PROGRAM:新規ﾌﾟﾛｼﾞｪｸﾄ.ﾘｿｰｽ.新規ﾘｿｰｽ1.ﾌﾟﾛｸﾞﾗﾑ.ﾃﾞｰﾀ収集PLCﾌﾟﾛｸﾞﾗﾑ.ｾｸｼｮﾝ.Ch1_RT3通信開始!Ch1_RT3通信開始";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=5;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[7]:=
-BEGIN
- Norm:="0364 0364 1748 1136";
- Min:="-001 -001";
- Access:="PROGRAM:新規ﾌﾟﾛｼﾞｪｸﾄ.ﾘｿｰｽ.新規ﾘｿｰｽ1.ﾌﾟﾛｸﾞﾗﾑ.ﾃﾞｰﾀ収集PLCﾌﾟﾛｸﾞﾗﾑ.ｾｸｼｮﾝ.PCﾃﾞｰﾀ吸上げﾊﾝﾄﾞｼｪｲｸ!PCﾃﾞｰﾀ吸上げﾊﾝﾄﾞｼｪｲｸ";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=13;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[8]:=
-BEGIN
- Norm:="0026 0026 1938 0749";
- Min:="-001 -001";
- Access:="PROGRAM:新規ﾌﾟﾛｼﾞｪｸﾄ.ﾘｿｰｽ.新規ﾘｿｰｽ1.ﾌﾟﾛｸﾞﾗﾑ.ﾃﾞｰﾀ収集PLCﾌﾟﾛｸﾞﾗﾑ.ｾｸｼｮﾝ.ﾃﾞﾊﾞｯｸﾞﾓﾆﾀST1!ﾃﾞﾊﾞｯｸﾞﾓﾆﾀST1";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=20;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[9]:=
-BEGIN
  Max:=true;
- Norm:="0338 0338 2172 1170";
+ Norm:="0026 0026 1350 0628";
  Min:="-001 -001";
- Access:="PROGRAM:新規ﾌﾟﾛｼﾞｪｸﾄ.ﾘｿｰｽ.新規ﾘｿｰｽ1.ﾌﾟﾛｸﾞﾗﾑ.ﾃﾞｰﾀ収集PLCﾌﾟﾛｸﾞﾗﾑ.ｾｸｼｮﾝ.ﾃﾞﾊﾞｯｸﾞﾓﾆﾀ測定値!ﾃﾞﾊﾞｯｸﾞﾓﾆﾀ測定値";
+ Access:="PROGRAM:新規ﾌﾟﾛｼﾞｪｸﾄ.ﾘｿｰｽ.新規ﾘｿｰｽ1.ﾌﾟﾛｸﾞﾗﾑ.OV_RV.ｾｸｼｮﾝ.制御!制御";
  Type:=1;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=14;
+   Yscroll:=56;
   END;
   nViews:=1;
  END;
 END;
-nFrames:=10;
+nFrames:=3;
 WatchWindow:=
 BEGIN
  NumWatch:=3;
